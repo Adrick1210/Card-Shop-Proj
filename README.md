@@ -1,2 +1,2 @@
 # Yugioh Card Shop
-### Christian Alexander
+### By Christian Alexander
