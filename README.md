@@ -74,11 +74,11 @@ Basic search design with a input and a button. Once the user inputs a search, th
 
 #### Desktop View
 
-![My Desktop View]()
+![My Desktop View](/images/desktop.png)
 
 #### Mobile View
 
-![My Mobile View]()
+![My Mobile View](/images/mobile.png)
 
 DEPLYOYED SITE: [Click Here]()
 
