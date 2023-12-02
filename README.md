@@ -10,6 +10,8 @@ the year printed, and the set it was printed with.
 
 ## API
 
+Yu-Gi-Oh! API by YGOPRODeck: https://ygoprodeck.com/api-guide/
+
 Sample Fetch call:
 
 ```js
