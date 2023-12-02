@@ -70,7 +70,7 @@ Data returned:
 
 ## Mockup
 
-Here put a mix of text explanation plus a picture giving us an idea of the layout of your website.
+Basic search design with a input and a button. Once the user inputs a search, the item should generate to the page
 
 #### Desktop View
 
@@ -78,7 +78,7 @@ Here put a mix of text explanation plus a picture giving us an idea of the layou
 
 #### Mobile View
 
-![My Mobile View](https://i.imgur.com/5Bs7N6B.png)
+![My Mobile View]()
 
 DEPLYOYED SITE: [Click Here]()
 
