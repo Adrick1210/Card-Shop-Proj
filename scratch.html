@@ -12,7 +12,7 @@
   </head>
   <body>
     <script>
-        // fetch the data
+        // fetch the card data
         const fetchCard = fetch('https://db.ygoprodeck.com/api/v7/cardinfo.php');
         // console.log(fetchCard);
         // access the data
@@ -20,6 +20,15 @@
             return card.json();
         }).then((data) => {
             console.log(data);
+        })
+        // fetch the set data
+        const fetchSet = fetch('https://db.ygoprodeck.com/api/v7/cardsets.php')
+        // console.log(fetchSet);
+        // access the data
+        fetchSet.then((set) => {
+          return set.json();
+        }).then((data) => {
+          console.log(data)
         })
     </script>
   </body>

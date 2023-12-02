@@ -88,7 +88,7 @@ DEPLYOYED SITE: [Click Here]()
 
 | Day   | Goal                                 | What I did accomplish |
 | ----- | ------------------------------------ | --------------------- |
-| Sat   | Create Readme, Deploy, Get Approval  |                       |
+| Sat   | Create Readme, Deploy, Get Approval  |Approval received      |
 | Sun   | Build fetch of data in JS file       |                       |
 | Mon   | Render data from API on screen       |                       |
 | Tues  | Build form for user to interact with |                       |
