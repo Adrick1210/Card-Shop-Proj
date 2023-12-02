@@ -24,42 +24,73 @@ fetchCard
 ```
 
 Data returned:
+
 ```json
-{id: 34541863, name: '"A" Cell Breeding Device', type: 'Spell Card', frameType: 'spell', desc: 'During each of your Standby Phases, put 1 A-Counter on 1 face-up monster your opponent controls.', …},
-{id: 64163367, name: '"A" Cell Incubator', type: 'Spell Card', frameType: 'spell', desc: 'Each time an A-Counter(s) is removed from play by …e A-Counters on this card among face-up monsters.', …},
-{id: 91231901, name: '"A" Cell Recombination Device', type: 'Spell Card', frameType: 'spell', desc: 'Target 1 face-up monster on the field; send 1 "Ali…dd 1 "Alien" monster from your Deck to your hand.', …},
-{id: 73262676, name: '"A" Cell Scatter Burst', type: 'Spell Card', frameType: 'spell', desc: `Select 1 face-up "Alien" monster you control. Dest…its Level among your opponent's face-up monsters.`, …},
-{id: 98319530, name: '"Infernoble Arms - Almace"', type: 'Spell Card', frameType: 'spell', desc: 'While this card is equipped to a monster: You can …lmace"" effect per turn, and only once that turn.', …},
-{id: 37478723, name: '"Infernoble Arms - Durendal"', type: 'Spell Card', frameType: 'spell', desc: 'While this card is equipped to a monster: You can …endal"" effect per turn, and only once that turn.', …},
-{id: 64867422, name: '"Infernoble Arms - Hauteclere"', type: 'Spell Card', frameType: 'spell', desc: 'While this card is equipped to a monster: You can …clere"" effect per turn, and only once that turn.', …},
-{id: 90861137, name: '"Infernoble Arms - Joyeuse"', type: 'Spell Card', frameType: 'spell', desc: 'While this card is equipped to a monster: You can …yeuse"" effect per turn, and only once that turn.', …},
- {id: 44256816, name: '1st Movement Solo', type: 'Spell Card', frameType: 'spell', desc: 'If you control no monsters: Special Summon 1 Level… activate this card, except "Melodious" monsters.', …},
- {id: 86988864, name: '3-Hump Lacooda', type: 'Effect Monster', frameType: 'effect', desc: 'If there are 3 face-up "3-Hump Lacooda" cards on y… of the field, Tribute 2 of them to draw 3 cards.', …},
- {id: 11714098, name: '30,000-Year White Turtle', type: 'Normal Monster', frameType: 'normal', desc: 'A huge turtle that has existed for more than 30,000 years.', …},
+[
+  {
+    "id": 71015787,
+    "name": "Silent Wobby",
+    "type": "Effect Monster",
+    "frameType": "effect",
+    "desc": "During your Main Phase: You can Special Summon this card from your hand to your opponent's side of the field. When Summoned this way: Draw 1 card, and if you do, your opponent gains 2000 Life Points. You can only use this effect of \"Silent Wobby\" once per turn. The hand size limit of this card's controller becomes 3.",
+    "atk": 1000,
+    "def": 2000,
+    "level": 4,
+    "race": "Fish",
+    "attribute": "WATER",
+    "card_sets": [
+      {
+        "set_name": "Premium Gold",
+        "set_code": "PGLD-EN013",
+        "set_rarity": "Gold Secret Rare",
+        "set_rarity_code": "(GScR)",
+        "set_price": "6.83"
+      }
+    ],
+    "card_images": [
+      {
+        "id": 71015787,
+        "image_url": "https://images.ygoprodeck.com/images/cards/71015787.jpg",
+        "image_url_small": "https://images.ygoprodeck.com/images/cards_small/71015787.jpg",
+        "image_url_cropped": "https://images.ygoprodeck.com/images/cards_cropped/71015787.jpg"
+      }
+    ],
+    "card_prices": [
+      {
+        "cardmarket_price": "0.92",
+        "tcgplayer_price": "1.82",
+        "ebay_price": "9.99",
+        "amazon_price": "5.99",
+        "coolstuffinc_price": "4.99"
+      }
+    ]
+  }
+]
 ```
+
 ## Mockup
 
 Here put a mix of text explanation plus a picture giving us an idea of the layout of your website.
 
 #### Desktop View
 
-![My Desktop View](https://i.imgur.com/5Bs7N6B.png)
+![My Desktop View]()
 
 #### Mobile View
 
 ![My Mobile View](https://i.imgur.com/5Bs7N6B.png)
 
-DEPLYOYED SITE: [Click Here](https://sealproject1.vercel.app/)
+DEPLYOYED SITE: [Click Here]()
 
 ## Schedule of Work
 
-|Day | Goal | What I did accomplish |
-|----|------|-----------------------|
-| Sat | Create Readme, Deploy, Get Approval | |
-| Sun | Build fetch of data in JS file ||
-| Mon | Render data from API on screen ||
-| Tues| Build form for user to interact with ||
-| Wed | wrap up functionality ||
-|Thurs| mobile layout styling ||
-| Fri | Desktop layout styling ||
-| Sat | Present Project ||
+| Day   | Goal                                 | What I did accomplish |
+| ----- | ------------------------------------ | --------------------- |
+| Sat   | Create Readme, Deploy, Get Approval  |                       |
+| Sun   | Build fetch of data in JS file       |                       |
+| Mon   | Render data from API on screen       |                       |
+| Tues  | Build form for user to interact with |                       |
+| Wed   | wrap up functionality                |                       |
+| Thurs | mobile layout styling                |                       |
+| Fri   | Desktop layout styling               |                       |
+| Sat   | Present Project                      |                       |
