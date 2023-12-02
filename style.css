@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'yu-gi-oh-matrix-bold';
+    src: url('/font/yu-gi-oh-matrix-bold.ttf');
+    font-family: 'yu-gi-oh-matrix';
+    src: url('/font/yu-gi-oh-matrix.ttf');
+}
+
+header {
+    margin-top: 50px;
+}
+
+header h1 {
+    font-family: 'yu-gi-oh-matrix';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 img{
+     width: 130px;
+}
+
+.description {
+    border: 1px solid black;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.form {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
