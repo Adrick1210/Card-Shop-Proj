@@ -44,6 +44,14 @@ input {
     width: 90%;
 }
 
+.card {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 @media only screen and (max-width: 800px) {
   .description {
     display: none;
