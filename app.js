@@ -16,6 +16,9 @@ function getCard(name) {
     // access the data
     .then((data) => {
       // target specific key value pairs
+      priceInfo = [];
+      setInfo = [];
+
       // name of card for now
       const cardName = data.data[0].name;
       // target card prices and print out each price of the card via its market
@@ -60,7 +63,6 @@ function getCard(name) {
       }
       // I print the card name and image
       printName(`${cardName}`, `${cardImgSma}`);
-      console.log(data)
     });
 }
 
@@ -109,6 +111,8 @@ function printSetHead() {
 
 // function to handle form submission for user
 function handleSubmit(event) {
+  document.querySelector('#price').innerHTML = '';
+  document.querySelector('#set').innerHTML = '';
   event.preventDefault();
   const form = event.target;
   const formData = new FormData(form);
@@ -121,5 +125,6 @@ function handleSubmit(event) {
 //******************************** */
 // call for the targeted piece of data testing:
 // getCard("dark magician");
+// getCard("borreload savage dragon");
 // Event listener
 document.querySelector("form").addEventListener("submit", handleSubmit);
