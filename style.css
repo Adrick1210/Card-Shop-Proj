@@ -5,6 +5,10 @@
   src: url("/font/yu-gi-oh-matrix.ttf");
 }
 
+body {
+  padding-bottom: 40px;
+}
+
 header {
   background-color: brown;
   position: absolute;
@@ -15,7 +19,7 @@ header {
 }
 
 header h1 {
-  font-family: "yu-gi-oh-matrix-bold";
+  font-family: "yu-gi-oh-matrix";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +27,11 @@ header h1 {
 
 header h1 img {
   width: 130px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
 }
 
 .description {
@@ -41,15 +50,32 @@ header h1 img {
 }
 
 input {
-    width: 90%;
+  width: 90%;
 }
 
 .card {
   margin-top: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+#price {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+#set {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 800px) {

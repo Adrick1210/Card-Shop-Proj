@@ -9,7 +9,7 @@
   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
   crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="app.js"></script>
+  <script src="app.js" defer></script>
   </head>
   <body>
     <header>
@@ -25,13 +25,15 @@
       <form>
         <input
           type="text"
-          name="CardName"
+          name="cardName"
           placeholder="Please enter a card name"
         />
         <button>Search</button>
       </form>
     </div>
     <div class="card"></div>
+    <div id="price"></div>
+    <div id="set"></div>
     <footer></footer>
   </body>
 </html>
