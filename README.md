@@ -4,9 +4,12 @@
 
 ## Description
 
+### Updated
 I am creating a search through data base that uses YUGIOH card data. A user can look up any card
-and receive information back about a specific card. I want to print the card itself, as well as
-the year printed, and the set it was printed with.
+and receive information back about a specific card. Originally I wanted to show a user the card 
+with the year printed and a set it was first printed. However unable to access that data, I've 
+changed the information to show the user being to show the user the market prices from different
+vendors, and sets with the rarity types.
 
 ## API
 
@@ -89,9 +92,9 @@ DEPLYOYED SITE: [Click Here](https://adrick1210.github.io/Card-Shop-Proj/)
 | Day   | Goal                                 | What I did accomplish |
 | ----- | ------------------------------------ | --------------------- |
 | Sat   | Create Readme, Deploy, Get Approval  |  Approval received    |
-| Sun   | Build fetch of data in JS file       |                       |
-| Mon   | Render data from API on screen       |                       |
-| Tues  | Build form for user to interact with |                       |
+| Sun   | Build fetch of data in JS file       |  Able to fetch data   |
+| Mon   | Render data from API on screen       | Able to render data   |
+| Tues  | Build form for user to interact with | Form is running       |
 | Wed   | wrap up functionality                |                       |
 | Thurs | mobile layout styling                |                       |
 | Fri   | Desktop layout styling               |                       |
