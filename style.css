@@ -70,6 +70,10 @@ input {
   text-align: center;
 }
 
+.seller {
+  text-transform: capitalize;
+}
+
 #set {
   margin-top: 30px;
   display: flex;
