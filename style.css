@@ -1,32 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Silkscreen&display=swap');
 @font-face {
-  font-family: "yu-gi-oh-matrix-bold";
-  src: url("/font/yu-gi-oh-matrix-bold.ttf");
-  font-family: "yu-gi-oh-matrix";
-  src: url("/font/yu-gi-oh-matrix.ttf");
+  font-family: "Backbones";
+  src: url(font/Backbones-YzAoL.ttf);
 }
-
 body {
   padding-bottom: 40px;
 }
 
 header {
-  background-color: brown;
+  background: url("images/banner-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
 }
 
 header h1 {
-  font-family: "yu-gi-oh-matrix";
+  font-family: "Backbones";
   display: flex;
   justify-content: center;
   align-items: center;
+  color: red;
+  text-shadow: 3px 9px 2px black;
+  font-size: 42px;
 }
 
 header h1 img {
-  width: 130px;
+  width: 150px;
 }
 
 h2 {
@@ -43,27 +46,57 @@ h2 {
 }
 
 .form {
-  margin-top: 80px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
 }
 
 input {
-  width: 90%;
+  width: 250px;
+  border-radius: 25px;
+  border: none;
+  height: 28px;
+  padding: 5px;
+  background-color: rgb(230, 229, 229);
+  opacity: 0.7;
+}
+
+button {
+  position: absolute;
+  top: 35x;
+  right: 110px;
+  height: 38px;
+  width: 15%;
+  padding: 5px;
+  border-radius: 25px;
+  border: none;
+  background-color: rgb(82, 180, 250);
+  font-family: 'Silkscreen', sans-serif;
 }
 
 .card {
-  margin-top: 20px;
+  margin-top: 330px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
+}
+
+.card img{
+  height: 400px;
+  justify-content: center;
+  border-radius: 12px;
 }
 
 #price {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -75,7 +108,6 @@ input {
 }
 
 #set {
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
