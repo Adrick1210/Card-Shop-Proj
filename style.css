@@ -73,6 +73,7 @@ input {
   border: none;
   height: 28px;
   padding: 5px;
+  margin-right: 50px;
   background-color: rgb(230, 229, 229);
   opacity: 0.7;
 }
@@ -80,7 +81,7 @@ input {
 button {
   position: absolute;
   top: 35x;
-  right: 65px;
+  right: 81px;
   height: 38px;
   width: 18%;
   padding: 5px;
