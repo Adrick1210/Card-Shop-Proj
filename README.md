@@ -85,7 +85,7 @@ Basic search design with a input and a button. Once the user inputs a search, th
 
 ![My Mobile View](/images/mobile.png)
 
-DEPLYOYED SITE: [Click Here](https://adrick1210.github.io/Card-Shop-Proj/)
+DEPLOYED SITE: [Click Here](https://adrick1210.github.io/Card-Shop-Proj/)
 
 ## Schedule of Work
 
@@ -95,7 +95,7 @@ DEPLYOYED SITE: [Click Here](https://adrick1210.github.io/Card-Shop-Proj/)
 | Sun   | Build fetch of data in JS file       |  Able to fetch data   |
 | Mon   | Render data from API on screen       | Able to render data   |
 | Tues  | Build form for user to interact with | Form is running       |
-| Wed   | wrap up functionality                |                       |
-| Thurs | mobile layout styling                |                       |
+| Wed   | wrap up functionality                |  functionality done   |
+| Thurs | mobile layout styling                |styling done for mobile|
 | Fri   | Desktop layout styling               |                       |
 | Sat   | Present Project                      |                       |

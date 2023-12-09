@@ -11,10 +11,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100%;
   justify-content: center;
-  left: 0;
-  right: 0;
+  /* border: 1px solid red; */
 }
 
 header {
@@ -60,7 +58,6 @@ h2 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   position: absolute;
   top: 40px;
   left: 0;
@@ -72,6 +69,7 @@ h2 {
 input {
   width: 250px;
   border-radius: 25px;
+  outline: none;
   border: none;
   height: 28px;
   padding: 5px;
@@ -82,7 +80,7 @@ input {
 button {
   position: absolute;
   top: 35x;
-  right: 69px;
+  right: 65px;
   height: 38px;
   width: 18%;
   padding: 5px;
@@ -99,9 +97,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
-  width: 100%;
-
+ 
 }
 
 .card h1 {
@@ -128,6 +124,7 @@ button {
   flex-direction: column;
   gap: 15px;
   text-align: center;
+  
 }
 
 .seller {
