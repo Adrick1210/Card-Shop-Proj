@@ -97,5 +97,5 @@ DEPLOYED SITE: [Click Here](https://adrick1210.github.io/Card-Shop-Proj/)
 | Tues  | Build form for user to interact with | Form is running       |
 | Wed   | wrap up functionality                |  functionality done   |
 | Thurs | mobile layout styling                |styling done for mobile|
-| Fri   | Desktop layout styling               |                       |
+| Fri   | Desktop layout styling               |  styled for desktop   |
 | Sat   | Present Project                      |                       |
