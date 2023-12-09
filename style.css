@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Silkscreen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 @font-face {
   font-family: "Backbones";
   src: url(font/Backbones-YzAoL.ttf);
 }
 body {
   padding-bottom: 40px;
-  background-image: url('images/background.webp');
+  background-image: url("images/background.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -46,7 +46,6 @@ h2 {
 }
 
 .description {
-  border: 1px solid black;
   margin-top: 130px;
   margin-left: 50px;
   margin-right: 50px;
@@ -88,7 +87,7 @@ button {
   border-radius: 25px;
   border: none;
   background-color: rgb(82, 180, 250);
-  font-family: 'Silkscreen', sans-serif;
+  font-family: "Silkscreen", sans-serif;
   color: black;
 }
 
@@ -98,18 +97,16 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 
 .card h1 {
-  font-family: 'Creepster';
+  font-family: "Creepster";
   color: aliceblue;
   font-size: 40px;
 }
 
-.card img{
+.card img {
   margin-top: 19px;
-  height: 350px;
   justify-content: center;
   border-radius: 12px;
 }
@@ -125,7 +122,6 @@ button {
   flex-direction: column;
   gap: 15px;
   text-align: center;
-  
 }
 
 .seller {
@@ -162,12 +158,103 @@ button {
   font-size: 28px;
 }
 
-
 @media only screen and (max-width: 800px) {
   .description {
     display: none;
   }
   .form {
     margin-top: 150px;
+  }
+  .card img {
+    height: 350px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    padding-bottom: 200px;
+    background-image: url('images/EWITy1CXQAAYI4b.jpg') ;
+  }
+
+  .description {
+    margin-top: 250px;
+    width: 30%;
+    margin-left: 650px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    opacity: 0.6;
+  }
+
+  .form {
+    margin-top: 350px;
+  }
+
+  input {
+    width: 100%;
+    margin-right: 250px;
+  }
+
+  button {
+    position: absolute;
+    right: 705px;
+    bottom: 31px;
+    width: 100px;
+  }
+
+  .card {
+    margin-top: 150px;
+  }
+
+  .card h1 {
+    color: black;
+    background-color: azure;
+    padding: 12px;
+    border-radius: 25px;
+    opacity: 0.6;
+  }
+
+  #price {
+    margin-left: 200px;
+    margin-top: 110px;
+    width: 600px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding-bottom: 18px;
+  }
+
+  .price-head {
+    color: rgb(46, 44, 44);
+  }
+
+  .seller {
+    color: black;
+  }
+
+  .price {
+    color: black;
+  }
+
+  #set {
+    width: 600px;
+    position: absolute;
+    margin-left: 1125px;
+    top: 1373px;
+    gap: 12px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    opacity: 0.7;;
+  }
+
+  .set-head {
+    color: rgb(58, 58, 58);
+  }
+
+  .set-name {
+    color: black;
+  }
+
+  .rating {
+    color: black;
   }
 }
