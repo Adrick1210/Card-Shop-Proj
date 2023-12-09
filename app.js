@@ -57,7 +57,7 @@ function getCard(name) {
 
       printSetHead();
       for (let i = 0; i < 5; i++) {
-        printSHead(fiveRandomSets[i].set);
+        printSHead(`-${fiveRandomSets[i].set}-`);
         printSet(fiveRandomSets[i].rarity);
       }
 
