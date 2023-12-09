@@ -6,6 +6,10 @@
 }
 body {
   padding-bottom: 40px;
+  background-image: url('images/background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -73,7 +77,7 @@ input {
 button {
   position: absolute;
   top: 35x;
-  right: 77px;
+  right: 72px;
   height: 38px;
   width: 15%;
   padding: 5px;
@@ -91,37 +95,64 @@ button {
   align-items: center;
 }
 
+.card h1 {
+  color: aliceblue;
+}
+
 .card img{
-  height: 400px;
+  margin-top: 25px;
+  height: 350px;
   justify-content: center;
   border-radius: 12px;
 }
 
 .price-head {
+  margin-top: 40px;
   font-family: "Permanent Marker";
+  color: aliceblue;
 }
 
 #price {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   text-align: center;
 }
 
 .seller {
   text-transform: capitalize;
+  color: cornsilk;
+  font-size: 35px;
+}
+
+.price {
+  color: white;
+  font-size: 20px;
 }
 
 .set-head {
   font-family: "Permanent Marker";
+  color: aliceblue;
+  margin-top: 40px;
 }
 
 #set {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   text-align: center;
 }
+
+.set-name {
+  color: cornsilk;
+  font-size: 35px;
+}
+
+.rating {
+  color: white;
+  font-size: 28px;
+}
+
 
 @media only screen and (max-width: 800px) {
   .description {
