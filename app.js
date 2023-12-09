@@ -137,7 +137,6 @@ const fiveRanSets = (arr) => {
     // splice item from copy and push into new array
     newInfo.push(infoCopy.splice(randomIndex, 1)[0]);
   }
-
   // return array of 5 items after look
   return newInfo;
 };
@@ -146,7 +145,6 @@ const fiveRanSets = (arr) => {
 function handleSubmit(event) {
   document.querySelector("#price").innerHTML = "";
   document.querySelector("#set").innerHTML = "";
-  
   event.preventDefault();
   const form = event.target;
   const formData = new FormData(form);
