@@ -98,4 +98,4 @@ DEPLOYED SITE: [Click Here](https://adrick1210.github.io/Card-Shop-Proj/)
 | Wed   | wrap up functionality                |  functionality done   |
 | Thurs | mobile layout styling                |styling done for mobile|
 | Fri   | Desktop layout styling               |  styled for desktop   |
-| Sat   | Present Project                      |                       |
+| Sat   | Present Project                      |    presented          |
